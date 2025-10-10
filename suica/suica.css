@@ -8,7 +8,7 @@ body {
 }
 
 .conteudo {
-    max-width: 1200px; 
+    max-width: 1300px; 
     margin: 0 auto; 
     padding: 0 3%; 
     margin-top: -70px; 
@@ -18,13 +18,13 @@ body {
 
 .cabecalho {
   position: relative;
-  height: 35vh; 
+  height: 50vh; 
   width: 100vw; 
   left: 50%;
   right: 50%;
   margin-left: -50vw; 
   margin-right: -50vw; 
-  background: url('../resources/matterhorn.jpg') center/cover no-repeat;
+  background: url('../resources/mattehorn.jpg') center/cover no-repeat;
   display: flex;
   align-items: center; 
   justify-content: left; 
@@ -39,6 +39,7 @@ body {
     color: #fff;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
     text-align: left;
+    margin-left: 80px; /* Move só o título */
 }
 
 .overlay {
@@ -96,7 +97,7 @@ body {
 }
 
 .topico i {
-    color: #345c2a; 
+    color: #1b2d92; 
     font-size: 1.6rem; 
     margin-right: 15px; 
     margin-top: 2px; 
@@ -125,7 +126,7 @@ body {
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #345c2a; 
+  border: 5px solid #1b2d92; 
   box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
   transition: transform 0.3s ease;
 }
@@ -137,7 +138,7 @@ body {
 .voltar a, 
 .voltar-desktop a,
 .voltar-mobile a {
-  background: #345c2a;
+  background: #1b2d92;
   color: #fff;
   padding: 0.9rem 2.5rem;
   border-radius: 40px;
@@ -153,7 +154,7 @@ body {
 .voltar a:hover,
 .voltar-desktop a:hover,
 .voltar-mobile a:hover {
-  background: #2a4b22;
+  background: #1b2d92;
   transform: translateY(-3px); 
 }
 
