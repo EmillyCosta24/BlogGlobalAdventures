@@ -1,3 +1,5 @@
+/* Arquivo: toronto.css */
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -8,23 +10,23 @@ body {
 }
 
 .conteudo {
-  max-width: 1200px; 
-  margin: 0 auto; 
-  padding: 0 3%; 
-  margin-top: -70px; 
-  position: relative;
-  z-index: 5; 
+    max-width: 1300px; 
+    margin: 0 auto; 
+    padding: 0 3%; 
+    margin-top: -70px; 
+    position: relative;
+    z-index: 5; 
 }
 
 .cabecalho {
   position: relative;
-  height: 35vh; 
+  height: 50vh; 
   width: 100vw; 
   left: 50%;
   right: 50%;
   margin-left: -50vw; 
   margin-right: -50vw; 
-  background: url('../resources/toronto.jpg') center/cover no-repeat;
+  background: url('../resources/canada.jpg') center/cover no-repeat;
   display: flex;
   align-items: center; 
   justify-content: left; 
@@ -34,18 +36,19 @@ body {
 }
 
 .titulo-container {
-  position: relative;
-  z-index: 2; 
-  color: #fff;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
-  text-align: left;
+    position: relative;
+    z-index: 2; 
+    color: #fff;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6);
+    text-align: left;
+    margin-left: 80px; 
 }
 
 .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgba(0, 0, 0, 0.65); 
   z-index: 1;
 }
 
@@ -79,25 +82,33 @@ body {
   min-width: 450px; 
 }
 
+.topico .descricao {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2f3e46;
+  margin: 0;
+}
+
 .topico {
-  display: flex; 
-  align-items: flex-start;
-  margin-bottom: 2rem; 
-  line-height: 1.6;
+    display: flex; 
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
 }
 
 .topico i {
-  color: #d62828; /* vermelho da folha canadense */
-  font-size: 1.6rem; 
-  margin-right: 15px; 
-  margin-top: 2px; 
-  min-width: 30px;
-  text-align: center;
+    color: #eb150d;
+    font-size: 1.5rem; 
+    margin-right: 15px; 
+    margin-top: 5px; 
+    min-width: 30px;
+    text-align: center;
 }
 
-.topico p strong { 
-  color: #020202; 
-  font-weight: 700;
+.topico .descricao strong { 
+    color: #020202; 
+    font-weight: 700;
+    margin-right: 5px; 
 }
 
 .imagens {
@@ -106,8 +117,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  border-radius: 20px;
-  padding: 2.5rem 1.5rem;
+  margin-left: 2rem; 
 }
 
 .imagens img {
@@ -115,7 +125,7 @@ body {
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #d62828; 
+  border: 5px solid #eb150d; 
   box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
   transition: transform 0.3s ease;
 }
@@ -125,29 +135,25 @@ body {
 }
 
 .voltar a {
-  background: #d62828;
+  background: #eb150d;
   color: #fff;
   padding: 0.9rem 2.5rem;
   border-radius: 40px;
   text-decoration: none; 
   font-weight: bold;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(214, 40, 40, 0.5); 
+  box-shadow: 0 4px 12px #eb150d rgba(182, 7, 7, 0.4); 
   transition: background 0.3s ease, transform 0.2s ease;
   display: inline-block;
 }
 
 .voltar a:hover {
-  background: #a4161a;
+  background: #eb150d;
   transform: translateY(-3px); 
 }
 
 .voltar {
-  text-align: left;
-  margin-top: 4rem; 
-  margin-bottom: 4rem; 
-}
-
-.voltar-desktop {
-  display: none; 
+    text-align: left;
+    margin-top: 2rem; 
+    margin-bottom: 4rem; 
 }

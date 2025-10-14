@@ -129,10 +129,10 @@ ul {
 }
 
 .destaques-container .card-link:nth-child(1) .card {
-    background: url('resources/canada.jpg') no-repeat center center/cover; 
+    background: url('resources/canadaHome.jpg') no-repeat center center/cover; 
 }
 .destaques-container .card-link:nth-child(2) .card {
-    background: url('resources/zermattSwitzerland.jpg') no-repeat center center/cover; 
+    background: url('resources/suicaHome.jpg') no-repeat center center/cover; 
 }
 .destaques-container .card-link:nth-child(3) .card {
     background: url('resources/madridSpain.jpg') no-repeat center center/cover; 
